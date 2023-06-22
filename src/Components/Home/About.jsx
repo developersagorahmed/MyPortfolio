@@ -186,7 +186,7 @@ const About = () => {
 
 			<div className="ml-[68px] w-[1340px] h-[100vh]  bg-[#F5F8FD]">
 				<div className="ml-[50px] pt-[50px]">
-					<h1 className="text-4xl  font-bold text-[#173B6C]">About</h1>
+					<h1 className="text-4xl  font-bold text-[#173B6C]">Skills</h1>
 					<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>
 				</div>
 
