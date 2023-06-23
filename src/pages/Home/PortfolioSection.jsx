@@ -25,7 +25,7 @@ const PortfolioSection = () => {
 				Repellendus aspernatur corporis harum eaque corrupti hic quibusdam
 				voluptates iste eos sequi.
 			</p>
-			<div className="grid grid-cols-3 gap-6 mt-6">
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
 				<div className="rounded overflow-hidden group relative ">
 					<img src={cupImage} alt="" />
 					<div className="absolute left-0 -bottom-16 group-hover:bottom-0 flex justify-between w-full duration-300">

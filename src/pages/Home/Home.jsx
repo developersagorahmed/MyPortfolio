@@ -5,6 +5,7 @@ import ResumeSection from "./ResumeSection";
 import PortfolioSection from "./PortfolioSection";
 import ServiceSection from "./ServiceSection";
 import ContactSection from "./ContactSection";
+import TestimonialSection from "./TestimonialSection";
 
 const Home = () => {
 	return (
@@ -14,6 +15,7 @@ const Home = () => {
 			<ResumeSection />
 			<PortfolioSection />
 			<ServiceSection />
+			
 			<ContactSection />
 		</div>
 	);

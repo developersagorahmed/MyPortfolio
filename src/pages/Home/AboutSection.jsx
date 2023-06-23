@@ -15,7 +15,7 @@ const AboutSection = () => {
 					<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>
 				</div>
 
-				<p className="mt-6   text-[#272829]">
+				<p className="mt-6 text-[#272829] w-full">
 					Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
 					aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
 					quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
@@ -38,7 +38,7 @@ const AboutSection = () => {
 							eiusmod tempor incididunt ut labore et dolore magna aliqua.
 							eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
-						<div className="grid grid-cols-2  max-w-2xl gap-5">
+						<div className="grid grid-cols-1 md:grid-cols-2  max-w-2xl gap-5">
 							<div className="flex items-center space-x-2">
 								<BsChevronDoubleRight />
 								<span className="font-bold">Birthday:</span>
@@ -103,7 +103,7 @@ const AboutSection = () => {
 					quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
 					fugiat sit in iste officiis commodi quidem hic quas.
 				</p>
-				<div className="flex gap-6 justify-between">
+				<div className="flex flex-col md:flex-row gap-6 justify-between">
 					<div className="flex space-x-3">
 						<HiOutlineEmojiHappy size={70} className=" text-[#149DDD]" />
 						<div>

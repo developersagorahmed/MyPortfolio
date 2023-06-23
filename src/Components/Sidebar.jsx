@@ -11,18 +11,21 @@ import { BiHome, BiServer, BiUser, BiMailSend } from "react-icons/bi";
 import { TiDocument } from "react-icons/ti";
 import { ImProfile } from "react-icons/im";
 import { AiOutlineMail } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 
 
 const Sidebar = () => {
 	return (
-		<div className="bg-[#040b14] basis-full lg:basis-[16%] py-5 px-3 flex flex-col justify-between h-screen sticky top-0">
+		<div className="bg-[#040b14] basis-full lg:basis-[16%] py-5 px-3 md:flex flex-col justify-between h-screen sticky top-0 hidden">
 			<div className="flex flex-col text-white justify-center items-center space-y-4 ">
+				<Link to="/">
 				<img
 					className="w-28 rounded-full h-28 object-cover ring-8 ring-primary/30"
 					src="https://i.ibb.co/hY0FqPz/1671894808582.jpg"
 					alt="sagor ahmed image"
 				/>
+				</Link>
 				<h2 className="">Sagor Ahmed</h2>
 				<div className="flex space-x-3 justify-center">
 					<a
