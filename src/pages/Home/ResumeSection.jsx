@@ -3,7 +3,7 @@ import React from "react";
 const ResumeSection = () => {
 	return (
 		<div id="resume">
-			<div className="px-28 py-16">
+			<div className="p-10 md:px-20 lg:px-24 py-16">
 				<div className="">
 					<h1 className=" text-[#173B6C]">Resume</h1>
 					<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>

@@ -3,7 +3,7 @@ import { MdOutlineWebAsset } from "react-icons/md";
 import { BsFillBrushFill } from "react-icons/bs";
 const ServiceSection = () => {
 	return (
-		<section id="services" className="px-28 py-10">
+		<section id="services" className="p-10 md:px-20 lg:px-24 py-10">
 			<div className="mb-2">
 				<h1 className=" text-[#173B6C]">Services</h1>
 				<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>

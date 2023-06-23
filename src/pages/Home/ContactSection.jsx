@@ -3,7 +3,7 @@ import { BiMap, BiEnvelope, BiPhone } from "react-icons/bi";
 
 const ContactSection = () => {
 	return (
-		<section id="contact" className="py-10 px-28">
+		<section id="contact" className="py-10 p-10 md:px-20 lg:px-24">
 			<div className="mb-2">
 				<h1 className=" text-[#173B6C]">Contact</h1>
 				<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>

@@ -6,7 +6,7 @@ import "swiper/swiper-bundle.css";
 
 const TestimonialSection = () => {
 	return (
-		<section id="testimonial" className="px-28 py-10 bg-[#f5f8fd]">
+		<section id="testimonial" className="p-10 md:px-20 lg:px-24 py-10 bg-[#f5f8fd]">
 			<div className="mb-2">
 				<h1 className=" text-[#173B6C]">Testimonials</h1>
 				<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>

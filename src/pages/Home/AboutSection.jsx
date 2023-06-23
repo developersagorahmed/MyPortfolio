@@ -9,7 +9,7 @@ import "react-sweet-progress/lib/style.css";
 const AboutSection = () => {
 	return (
 		<section id="about">
-			<div className="px-28">
+			<div className="p-10 md:px-20 lg:px-24">
 				<div className="pt-[50px]">
 					<h1 className="  font-bold text-[#173B6C]">About</h1>
 					<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>
@@ -92,7 +92,7 @@ const AboutSection = () => {
 					</div>
 				</div>
 			</div>
-			<div className="px-28 mb-16 space-y-10 mt-10">
+			<div className="p-10 md:px-20 lg:px-24 mb-16 space-y-10 mt-10">
 				<div className="">
 					<h1 className="text-[#173B6C]">Facts</h1>
 					<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>
@@ -145,7 +145,7 @@ const AboutSection = () => {
 				</div>
 			</div>
 
-			<div className="space-y-10 bg-[#f5f8fd] px-28 py-14">
+			<div className="space-y-10 bg-[#f5f8fd] p-10 md:px-20 lg:px-24 py-14">
 				<div className="">
 					<h1 className="text-4xl  font-bold text-[#173B6C]">Skills</h1>
 					<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>
