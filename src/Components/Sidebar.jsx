@@ -93,7 +93,7 @@ const Sidebar = () => {
 				<li>
 					<a
 						className="flex items-center space-x-2 text-[#a8a9b4] group hover:text-white"
-						href="#"
+						href="#portfolio"
 					>
 						<ImProfile className="group-hover:text-primary" size={22} />
 						<span>Portfolio</span>
@@ -102,7 +102,7 @@ const Sidebar = () => {
 				<li>
 					<a
 						className="flex items-center space-x-2 text-[#a8a9b4] group hover:text-white"
-						href="#"
+						href="#services"
 					>
 						<BiServer className="group-hover:text-primary" size={22} />{" "}
 						<span>Services</span>
@@ -111,7 +111,7 @@ const Sidebar = () => {
 				<li>
 					<a
 						className="flex items-center space-x-2 text-[#a8a9b4] group hover:text-white"
-						href="#"
+						href="#contact"
 					>
 						<AiOutlineMail className="group-hover:text-primary" size={22} />{" "}
 						<span>Contact</span>
