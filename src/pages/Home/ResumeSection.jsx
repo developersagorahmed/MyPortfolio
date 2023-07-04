@@ -2,13 +2,13 @@ import React from "react";
 
 const ResumeSection = () => {
 	return (
-		<div id="resume">
+		<div id="resume" className="">
 			<div className="p-10 md:px-20 lg:px-24 py-16">
 				<div className="">
-					<h1 className=" text-[#173B6C]">Resume</h1>
+					<h1 className=" text-[white]">Resume</h1>
 					<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>
 				</div>
-				<p className=" text-[#272829] mb-6">
+				<p className=" text-[white] mt-6 mb-6">
 					Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
 					aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
 					quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia

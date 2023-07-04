@@ -5,7 +5,7 @@ const ServiceSection = () => {
 	return (
 		<section id="services" className="p-10 md:px-20 lg:px-24 py-10">
 			<div className="mb-2">
-				<h1 className=" text-[#173B6C]">Services</h1>
+				<h1 className=" text-[white]">Services</h1>
 				<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>
 			</div>
 			<p className="mb-8">

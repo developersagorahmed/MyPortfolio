@@ -8,17 +8,23 @@ import lotion from "../../assets/lotion.jpg";
 import bottle from "../../assets/bottle.jpg";
 import chir from "../../assets/chir.jpg";
 import dish from "../../assets/dish.jpg";
+import dish2 from "../../assets/web2.png";
+import dish3 from "../../assets/web1.png";
+import dish4 from "../../assets/web4.jpeg";
 
 import { BiLink, BiPlus } from "react-icons/bi";
 
 const PortfolioSection = () => {
 	return (
-		<section id="portfolio" className="p-10 md:px-20 lg:px-24 py-10 bg-[#f5f8fd]">
+		<section
+			id="portfolio"
+			className="p-10 md:px-20 lg:px-24 py-10 bg-[#f5f8fd]"
+		>
 			<div className="mb-2">
-				<h1 className=" text-[#173B6C]">Portfolio</h1>
+				<h1 className=" text-[#173B6C]">Projects</h1>
 				<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>
 			</div>
-			<p>
+			<p className="text-[#272829]">
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi error
 				voluptatum eos veniam aut, quibusdam adipisci natus in labore eveniet.
 				Corporis rem nesciunt, est obcaecati nobis mollitia suscipit?
@@ -27,53 +33,71 @@ const PortfolioSection = () => {
 			</p>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
 				<div className="rounded overflow-hidden group relative ">
-					<img src={cupImage} alt="" />
+					<img src={dish2} alt="" />
 					<div className="absolute left-0 -bottom-16 group-hover:bottom-0 flex justify-between w-full duration-300">
 						<a
-							href="#"
+							href="https://github.com/developersagorahmed/music-school-server"
 							className="bg-primary/50 hover:bg-primary duration-200 p-2 basis-1/2 flex justify-center text-white"
 						>
-							<BiPlus size={30} />
+							Server Link
 						</a>
 						<a
-							href="#"
+							href="https://github.com/developersagorahmed/Music-School-Client"
 							className="bg-primary/50 hover:bg-primary duration-200 p-2 basis-1/2 flex justify-center text-white"
 						>
-							<BiLink size={30} />
+							Code link <BiLink size={30} />
+						</a>
+						<a
+							href="https://music-book-website.web.app/"
+							className="bg-primary/50 hover:bg-primary duration-200 p-2 basis-1/2 flex justify-center text-white"
+						>
+							Live site
 						</a>
 					</div>
 				</div>
 				<div className="rounded overflow-hidden group relative">
-					<img src={serumImage} alt="" />
+					<img src={dish3} alt="" />
 					<div className="absolute left-0 -bottom-16 group-hover:bottom-0 flex justify-between w-full duration-300">
 						<a
-							href="#"
+							href="https://github.com/developersagorahmed/toys-market-website-server"
 							className="bg-primary/50 hover:bg-primary duration-200 p-2 basis-1/2 flex justify-center text-white"
 						>
-							<BiPlus size={30} />
+							Server Link
 						</a>
 						<a
-							href="#"
+							href="https://github.com/developersagorahmed/toys-market-website"
 							className="bg-primary/50 hover:bg-primary duration-200 p-2 basis-1/2 flex justify-center text-white"
 						>
-							<BiLink size={30} />
+							Code link <BiLink size={30} />
+						</a>
+						<a
+							href="https://action-toys-assignment-11.web.app"
+							className="bg-primary/50 hover:bg-primary duration-200 p-2 basis-1/2 flex justify-center text-white"
+						>
+							Live site
 						</a>
 					</div>
 				</div>
 				<div className="rounded overflow-hidden group relative">
-					<img src={cream} alt="" />
+					<img src={dish4} alt="" />
 					<div className="absolute left-0 -bottom-16 group-hover:bottom-0 flex justify-between w-full duration-300">
 						<a
-							href="#"
+							href="https://github.com/developersagorahmed/testy-food-server-side"
 							className="bg-primary/50 hover:bg-primary duration-200 p-2 basis-1/2 flex justify-center text-white"
 						>
-							<BiPlus size={30} />
+							Server Link
 						</a>
 						<a
-							href="#"
+							href="https://github.com/developersagorahmed/testy-food-website"
 							className="bg-primary/50 hover:bg-primary duration-200 p-2 basis-1/2 flex justify-center text-white"
 						>
-							<BiLink size={30} />
+							Code link <BiLink size={30} />
+						</a>
+						<a
+							href="https://assignment-10-testy-food.web.app"
+							className="bg-primary/50 hover:bg-primary duration-200 p-2 basis-1/2 flex justify-center text-white"
+						>
+							Live site
 						</a>
 					</div>
 				</div>

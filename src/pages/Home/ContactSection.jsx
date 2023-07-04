@@ -44,9 +44,7 @@ const ContactSection = () => {
 							<p>+880 17384 85960</p>
 						</div>
 					</div>
-					<div>
-						<img src="https://via.placeholder.com/350x250.jpg" alt="" />
-					</div>
+					
 				</div>
 				<form action="" className="shadow-lg basis-[72%] p-6 space-y-6 rounded">
 					<div className="flex space-x-6 w-full">

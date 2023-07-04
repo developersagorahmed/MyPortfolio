@@ -5,7 +5,6 @@ import {
 	FaInstagram,
 	FaLinkedinIn,
 	FaSkype,
-	
 } from "react-icons/fa";
 import { BiHome, BiServer, BiUser, BiMailSend } from "react-icons/bi";
 import { TiDocument } from "react-icons/ti";
@@ -13,51 +12,50 @@ import { ImProfile } from "react-icons/im";
 import { AiOutlineMail } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-
-
 const Sidebar = () => {
 	return (
 		<div className="bg-[#040b14] basis-full lg:basis-[16%] py-5 px-3 md:flex flex-col justify-between h-screen sticky top-0 hidden">
 			<div className="flex flex-col text-white justify-center items-center space-y-4 ">
 				<Link to="/">
-				<img
-					className="w-28 rounded-full h-28 object-cover ring-8 ring-primary/30"
-					src="https://i.ibb.co/hY0FqPz/1671894808582.jpg"
-					alt="sagor ahmed image"
-				/>
+					<img
+						className="w-28 rounded-full h-28 object-cover ring-8 ring-primary/30"
+						src="https://i.ibb.co/hY0FqPz/1671894808582.jpg"
+						alt="sagor ahmed image"
+					/>
 				</Link>
 				<h2 className="">Sagor Ahmed</h2>
+				<h3 className="text-lg font-semibold">sagorahmede090400@gmail.com</h3>
 				<div className="flex space-x-3 justify-center">
 					<a
-						className="hover:bg-primary w-8 h-8 bg-[#212431] grid content-center justify-center rounded-full duration-300"
+						className="hover:bg-primary w-12 h-12 bg-[#212431] grid content-center justify-center rounded-full duration-300"
 						target="_blank"
 						href="https://twitter.com/developerSagor"
 					>
 						<FaTwitter />
 					</a>
 					<a
-						className="hover:bg-primary w-8 h-8 bg-[#212431] grid content-center justify-center rounded-full duration-300"
+						className="hover:bg-primary w-12 h-12 bg-[#212431] grid content-center justify-center rounded-full duration-300"
 						target="_blank"
 						href="https://www.facebook.com/sagorahmed090400/"
 					>
 						<FaFacebookF />
 					</a>
 					<a
-						className="hover:bg-primary w-8 h-8 bg-[#212431] grid content-center justify-center rounded-full duration-300"
+						className="hover:bg-primary w-12 h-12 bg-[#212431] grid content-center justify-center rounded-full duration-300"
 						target="_blank"
 						href="https://www.instagram.com/sagorahmed090400/"
 					>
 						<FaInstagram />
 					</a>
 					<a
-						className="hover:bg-primary w-8 h-8 bg-[#212431] grid content-center justify-center rounded-full duration-300"
+						className="hover:bg-primary w-12 h-12 bg-[#212431] grid content-center justify-center rounded-full duration-300"
 						target="_blank"
 						href="https://join.skype.com/invite/qNijeGlN9gsb"
 					>
 						<FaSkype />
 					</a>
 					<a
-						className="hover:bg-primary w-8 h-8 bg-[#212431] grid content-center justify-center rounded-full duration-300"
+						className="hover:bg-primary w-12 h-12 bg-[#212431] grid content-center justify-center rounded-full duration-300"
 						target="_blank"
 						href="https://www.linkedin.com/in/sagor-ahmed-02a472271/"
 					>
@@ -66,57 +64,57 @@ const Sidebar = () => {
 				</div>
 			</div>
 			<ul className="flex flex-col justify-center items-left px-6 space-y-6">
-				<li>
+				<li className="text-xl">
 					<a
 						className="flex items-center space-x-2 text-[#a8a9b4] group hover:text-white"
 						href="#home"
 					>
-						<BiHome className="group-hover:text-primary" size={22} />
+						<BiHome className="group-hover:text-primary" size={25} />
 						<span>Home</span>
 					</a>
 				</li>
-				<li>
+				<li className="text-xl">
 					<a
 						className="flex items-center space-x-2 text-[#a8a9b4] group hover:text-white"
 						href="#about"
 					>
-						<BiUser className="group-hover:text-primary" size={22} />{" "}
+						<BiUser className="group-hover:text-primary" size={25} />{" "}
 						<span>About</span>
 					</a>
 				</li>
-				<li>
+				<li className="text-xl">
 					<a
 						className="flex items-center space-x-2 text-[#a8a9b4] group hover:text-white"
 						href="#resume"
 					>
-						<TiDocument className="group-hover:text-primary" size={22} />
+						<TiDocument className="group-hover:text-primary" size={25} />
 						<span>Resume</span>
 					</a>
 				</li>
-				<li>
+				<li className="text-xl">
 					<a
 						className="flex items-center space-x-2 text-[#a8a9b4] group hover:text-white"
 						href="#portfolio"
 					>
-						<ImProfile className="group-hover:text-primary" size={22} />
-						<span>Portfolio</span>
+						<ImProfile className="group-hover:text-primary" size={25} />
+						<span>Project</span>
 					</a>
 				</li>
-				<li>
+				<li className="text-xl">
 					<a
 						className="flex items-center space-x-2 text-[#a8a9b4] group hover:text-white"
 						href="#services"
 					>
-						<BiServer className="group-hover:text-primary" size={22} />{" "}
+						<BiServer className="group-hover:text-primary" size={25} />{" "}
 						<span>Services</span>
 					</a>
 				</li>
-				<li>
+				<li className="text-xl">
 					<a
 						className="flex items-center space-x-2 text-[#a8a9b4] group hover:text-white"
 						href="#contact"
 					>
-						<AiOutlineMail className="group-hover:text-primary" size={22} />{" "}
+						<AiOutlineMail className="group-hover:text-primary" size={25} />{" "}
 						<span>Contact</span>
 					</a>
 				</li>
@@ -126,7 +124,16 @@ const Sidebar = () => {
 					<small>&copy;</small>
 					<h3>Copyright Sagor</h3>
 				</div>
-				<div>Designed by <a href="https://www.facebook.com/sagorahmed090400/" target="" className="text-[#149DD0]">Sagor Ahmed</a></div>
+				<div>
+					Designed by{" "}
+					<a
+						href="https://www.facebook.com/sagorahmed090400/"
+						target=""
+						className="text-[#149DD0]"
+					>
+						Sagor Ahmed
+					</a>
+				</div>
 			</div>
 		</div>
 	);

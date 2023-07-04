@@ -8,7 +8,7 @@ import "react-sweet-progress/lib/style.css";
 
 const AboutSection = () => {
 	return (
-		<section id="about">
+		<section className="bg-white" id="about bg-red-200">
 			<div className="p-10 md:px-20 lg:px-24">
 				<div className="pt-[50px]">
 					<h1 className="  font-bold text-[#173B6C]">About</h1>
@@ -39,48 +39,48 @@ const AboutSection = () => {
 							eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 						<div className="grid grid-cols-1 md:grid-cols-2  max-w-2xl gap-5">
-							<div className="flex items-center space-x-2">
+							<div className="flex items-center space-x-2 text-black">
 								<BsChevronDoubleRight />
 								<span className="font-bold">Birthday:</span>
 								<span>09 April 2000</span>
 							</div>
-							<div className="flex items-center space-x-2">
+							<div className="flex items-center space-x-2 text-black">
 								<BsChevronDoubleRight />
 								<span className="font-bold">Age:</span>
 								<span>24</span>
 							</div>
-							<div className="flex items-center space-x-2">
+							<div className="flex items-center space-x-2 text-black">
 								<BsChevronDoubleRight />
 								<span className="font-bold">Website:</span>
 								<span>www.sagorahmed.xyz</span>
 							</div>
-							<div className="flex items-center space-x-2">
+							<div className="flex items-center space-x-2 text-black">
 								<BsChevronDoubleRight />
 								<span className="font-bold">Degree:</span>
 								<span>HSC</span>
 							</div>
-							<div className="flex items-center space-x-2">
+							<div className="flex items-center space-x-2 text-black">
 								<BsChevronDoubleRight />
 								<span className="font-bold">Phone:</span>
 								<span>+880 17384 85960</span>
 							</div>
-							<div className="flex items-center space-x-2">
+							<div className="flex items-center space-x-2 text-black">
 								<BsChevronDoubleRight />
 								<span className="font-bold">Email:</span>
 								<span>sagorahmed090400@gmail.com</span>
 							</div>
-							<div className="flex items-center space-x-2">
+							<div className="flex items-center space-x-2 text-black">
 								<BsChevronDoubleRight />
 								<span className="font-bold">City:</span>
 								<span>Gazipur, Bangladesh</span>
 							</div>
-							<div className="flex items-center space-x-2">
+							<div className="flex items-center space-x-2 text-black">
 								<BsChevronDoubleRight />
 								<span className="font-bold">Freelance:</span>
 								<span>Available</span>
 							</div>
 						</div>
-						<p className="">
+						<p className="text-black text-lg pt-6">
 							Officiis eligendi itaque labore et dolorum mollitia officiis optio
 							vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor
 							incidunt officia tempore. Et eius omnis. Cupiditate ut dicta
@@ -94,7 +94,7 @@ const AboutSection = () => {
 			</div>
 			<div className="p-10 md:px-20 lg:px-24 mb-16 space-y-10 mt-10">
 				<div className="">
-					<h1 className="text-[#173B6C]">Facts</h1>
+					<h1 className="text-[#272829]">Facts</h1>
 					<div className="w-[80px] h-[4px] bg-[#149DDD] mt-6"></div>
 				</div>
 				<p className="  text-[#272829]">
@@ -125,7 +125,9 @@ const AboutSection = () => {
 					<div className="flex space-x-3">
 						<BiSupport size={70} className=" text-[#149DDD]" />
 						<div>
-							<h1 className="text-[50px] mb-2 text-[#050D18] font-bold">1443</h1>
+							<h1 className="text-[50px] mb-2 text-[#050D18] font-bold">
+								1443
+							</h1>
 							<p className="text-[20px] font-bold text-[#050D18]">
 								Hours Of Support
 							</p>
